@@ -1,3 +1,9 @@
+<?php
+
+include './teste.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +13,10 @@
     <title>CURSO PHP</title>
 </head>
 <body>
-    <?php
-        echo "não é hello world, treinando commit";
-    ?>    
-
+    <h2>
+        <?php
+            echo  "Hello, i am" ." ". $name ." ". "and i'm from" ." ". $completAdress;
+        ?>
+    </h2>
 </body>
 </html>
