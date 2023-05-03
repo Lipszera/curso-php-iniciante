@@ -5,4 +5,4 @@ $country = 'Brasil';
 $city = 'Mafra';
 $state = 'SC';
 
-$completAdress = $country ."," ." ".  $city . "-" . $state;
+$completAdress = "$country,  $city - $state";

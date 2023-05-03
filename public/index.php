@@ -15,7 +15,7 @@ include './teste.php';
 <body>
     <h2>
         <?php
-            echo  "Hello, i am" ." ". $name ." ". "and i'm from" ." ". $completAdress;
+            echo  "Hello, i am $name, and i'm from $completAdress"
         ?>
     </h2>
 </body>
