@@ -1,6 +1,4 @@
 <?php
-
-//classes s
-class Car {
-
-}
+//define uma constante, e seu valor não pode ser alterado posteriormente.
+define('NAME', 'Gean');
+echo NAME;
