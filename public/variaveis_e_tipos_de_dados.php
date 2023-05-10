@@ -68,4 +68,4 @@ $gean->nome = "Gean Felipe Malachovski"; // Atribuindo valor ao atributo '$nome'
 $gean->idade = "26";
 $gean->Falar();
 
-/*NULL - é a ausência de algum valor
+/*NULL - é a ausência de algum valor.
