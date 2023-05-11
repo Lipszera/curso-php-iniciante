@@ -1,4 +1,8 @@
 <?php
-//define uma constante, e seu valor não pode ser alterado posteriormente.
-define('NAME', 'Gean');
-echo NAME;
+
+$number1 = 25;
+$number2 = 10;
+
+$soma = $number1 - $number2;
+
+echo $soma;
