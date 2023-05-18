@@ -35,7 +35,7 @@ var_dump($result);
 
 $canAccess = true;
 
-//usando "!" negamos o valor boleano e assim invertemos o resultado final
+//usando "!" negamos o valor booleano e assim invertemos o resultado final
 var_dump(!$canAccess);
 //RESULTADO: bool(false)
 
