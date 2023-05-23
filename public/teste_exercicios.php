@@ -2,18 +2,19 @@
 
 
 
-$tornado250 = "HONDA";
-$lander250 = "YAMAHA";
-$gs1200 = "BMW";
+$sorteio = rand(0,5);
 
-$moto = readline("Qual moto você teria: HONDA, YAMAHA OU BMW?\n");
-
-if ($moto == "HONDA") {
-    echo "MOTO DE HOMEM, HONDA É HONDA";
-} elseif ($moto == "YAMAHA") {
-    echo "YAMAHA É MOTO DE MENININHA";
-} elseif ($moto == "BMW") {
-    echo "BMW É TOP, AI O PAU PEGA";
-} else {
-    echo "OPÇÃO INVÁLIDA";
+switch($sorteio){
+   case 0:
+         echo "Você perdeu a vez";
+         break;
+   case 1:
+         echo "Avance 1 casa";
+         break;
+   case 2:
+         echo "Você ganhou um bônus! Avance 3 casas";
+         break;
+   default:
+         echo "Jogue novamente";
+         break;
 }
