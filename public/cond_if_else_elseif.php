@@ -13,6 +13,17 @@ if($isAdmin) {
 }
 //RESULTADO: NÃO É ADMIN
 
+
+
+//Podemos trabalhar com if/else de outra forma também:
+
+$isAdmin = true;
+
+echo ($isAdmin) ? 'É ADMIN' : 'NÃO É ADMIN';
+//RESULTADO: É ADMIN
+
+
+
 $ageLipszera = 26;
 
 if($ageLipszera >= 18) {
@@ -23,6 +34,14 @@ if($ageLipszera >= 18) {
 //RESULTADO: Lipszera é maior de idade
 
 
+
+$ageLipszera = 17;
+
+echo ($ageLipszera >= 18) ? 'Lipszera é maior de idade' : 'Lipszera não é maior de idade';
+//RESULTADO: Lipszera não é maior de idade
+
+
+
 $a = 4;
 $b = 2;
 
@@ -31,7 +50,19 @@ if($a/$b == 2) {
 } else {
     echo "O resultado da divisão de ".$a.  " por ".$b. "NÃO é igual a 2";
 }
-// RESULTADO: O resultado da divisão de 4 por 2 é igual a 2
+//RESULTADO: O resultado da divisão de 4 por 2 é igual a 2
+
+
+
+$number1 = 100;
+$number2 = 50;
+$coffeisBlack = true;
+
+$result = $number1 > $number2 && $coffeisBlack;
+
+echo ($result) ? 'é verdadeiro' : 'não é verdadeiro';
+//RESULTADO: é verdadeiro
+
 
 
 /*Além do if/else, existe também a condicional elseif ou else if. 
@@ -47,7 +78,7 @@ if ($a/$b==2) {
 } else {
     echo "O resultado da divisão não é 2 nem 4";
 }
-
+//RESULTADO: O resultado da divisão é 4
 
 
 $tornado250 = "HONDA";
