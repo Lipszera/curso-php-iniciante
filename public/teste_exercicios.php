@@ -1,5 +1,5 @@
 <?php
 
-$name = 'GEANFELIPEMALACHOVSKI';
-
-echo str_contains($name, 'MALA');
+$dechex = 255;
+    echo $result = dechex(255).dechex(255).dechex(255);
+//RESULTADO: ffffff
