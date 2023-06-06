@@ -1,4 +1,8 @@
 <?php
 
-$person = ['name' =>'Lipszera', 'age' => 26, 'documents' => ['cpf' => 12345678910, 'rg' => 6343212, 'uf' => 'sc']];
-    var_dump($person['documents']);
+$number = 26.54;
+
+$change = strVal ($number);
+
+var_dump($change);
+//RESULTADO: int (26)
