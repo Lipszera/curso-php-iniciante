@@ -1,8 +1,7 @@
 <?php
 
-$number = 26.54;
-
-$change = strVal ($number);
-
-var_dump($change);
-//RESULTADO: int (26)
+for ($numeroPar = 0; $numeroPar <= 20; $numeroPar++) {
+    if ($numeroPar % 2 == 0) {
+        echo $numeroPar."\n";
+    }
+}
