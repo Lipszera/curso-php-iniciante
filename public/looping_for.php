@@ -5,12 +5,18 @@
 deverão ser executadas. No caso, esse laço de repetição faz o PÓS DECREMENTO
 realizando as operações necessárias até que a contagem de repetições seja finalizada ou que sua condição declarada seja falsa. 
 
-A SINTAXE DO LAÇO FOR:
+PASSO A PASSO DO FUNCIONAMENTO DO LOOP FOR:
+1 - Testa a condição;
+2 - Se a  condição for falsa então ignora todos os comandos do bloco dentro do FOR e passa a executar os comandos após o bloco do FOR.
+3 - Se  condição for verdadeira então executa cada um dos comandos do bloco subordinado ao FOR.
+4 - Após executar o último comando do bloco do FOR volta ao passo 1.
+
+A SINTAXE DO LOOP FOR:
     for (valor_inicial; valor_limite, incremento_ou_decremento);
 */
 
 
-//Laço for com incremento
+//Loop for com incremento
 for ($i = 0; $i <= 10; $i++){
     echo $i;
 }
@@ -28,7 +34,7 @@ Assim, por diante, ate que o numero 10 for exibido (enquanto a condicao <= 10 se
 
 
 
-//Laço for com decremento
+//Loop for com decremento
 for ($i = 5; $i >= 0; $i--) {
     echo $i."\n";
 }
@@ -43,7 +49,7 @@ for ($i = 5; $i >= 0; $i--) {
 
 
 
-//Laço for mostrando numeros pares até 20
+//Loop for mostrando numeros pares até 20
 for ($numeroPar = 0; $numeroPar <= 20; $numeroPar ++) {
     if ($numeroPar % 2 == 0) {
         echo $numeroPar."\n";
@@ -64,7 +70,7 @@ for ($numeroPar = 0; $numeroPar <= 20; $numeroPar ++) {
 */
 
 
-//Laço for fazendo a contagem e mostrando indices de um array
+//Loop for fazendo a contagem e mostrando indices de um array
 $names = ['Lipszera', 'Gean', 'Aline'];
 /* funcao 'count' faz a contagem de elementos dentro de um array, neste caso, existem 3 elementos no array,
 iniciando em 0.
