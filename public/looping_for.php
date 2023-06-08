@@ -23,7 +23,7 @@ Incrementa +1;
 Exibe o número 2.
 Incrementa +1;
 Exibe o número 3.
-Assim, por diante, ate que o numero 10 for exibido (até que a condição <= 10 seja falsa).
+Assim, por diante, ate que o numero 10 for exibido (enquanto a condicao <= 10 seja verdadeira).
 */
 
 
