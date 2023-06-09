@@ -19,6 +19,7 @@ $varivel = algum valor inicial
 
 //Loop while com incremento
 $i = 0;
+
 while ($i <= 10) {
     echo $i;
     $i++;
@@ -30,6 +31,7 @@ while ($i <= 10) {
 
 //Loop while com decremento
 $i = 5;
+
 while ($i >= 0) {
     echo $i;
     $i--;
@@ -40,6 +42,7 @@ while ($i >= 0) {
 
 //Loop while mostrando numeros pares ate 20
 $i = 0;
+
 while ($i <= 20) {
     if($i % 2 == 0) {
         echo $i;
@@ -49,10 +52,10 @@ while ($i <= 20) {
 //RESULTADO: 02468101214161820
 
 
-
+//Loop while fazendo a contagem e mostrando indices de um array
 $names = ['Lipszera', 'Aline', 'Gean'];
-
 $i = 0;
+
 while ($i < count($names)) {
     echo $i;
     $i++;
@@ -61,12 +64,13 @@ while ($i < count($names)) {
 
 
 
-//Loop while fazendo a contagem e mostrando indices de um array
 $names = ['Lipszera', 'Aline', 'Gean'];
-
 $i = 0;
+
 while ($i < count($names)) {
     echo ($names [$i]);
     $i++;
 }
-//RESULTADO: LipszeraAlineGean
+/*RESULTADO: LipszeraGeanAline
+OBS: note que a cada pós incremento,(3 neste caso) o '$i' é substituido pelo o indice 0, 1 e 2 do array 
+*/
