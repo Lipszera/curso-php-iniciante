@@ -1,11 +1,9 @@
 <?php
 
-
-//Laço while fazendo a contagem de indices de um array
-$names = ['Lipszera', 'Aline', 'Gean'];
-
 $i = 0;
-while ($i < count($names)) {
-    echo $i;
+do {
+    if($i % 2 == 0){
+        echo $i;
+    }
     $i++;
-}
+} while($i <= 20);

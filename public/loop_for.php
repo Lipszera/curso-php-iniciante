@@ -70,6 +70,7 @@ for ($numeroPar = 0; $numeroPar <= 20; $numeroPar ++) {
 */
 
 
+
 //Loop for fazendo a contagem e mostrando indices de um array
 $names = ['Lipszera', 'Gean', 'Aline'];
 /* funcao 'count' faz a contagem de elementos dentro de um array, neste caso, existem 3 elementos no array,
