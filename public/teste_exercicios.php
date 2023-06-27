@@ -1,9 +1,7 @@
 <?php
 
-$i = 0;
-do {
-    if($i % 2 == 0){
-        echo $i;
-    }
-    $i++;
-} while($i <= 20);
+$person = ['name' => 'Gean', 'age' => 26, 'cpf' => 12345678900];
+
+foreach($person as $key => $dataPerson) {
+    echo $key . ' => ' .  $dataPerson . PHP_EOL;
+}
