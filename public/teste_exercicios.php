@@ -1,7 +1,13 @@
 <?php
 
-$person = ['name' => 'Gean', 'age' => 26, 'cpf' => 12345678900];
+$names = ['Lipszera', 'Gean', 'Aline'];
+$i = 0;
 
-foreach($person as $key => $dataPerson) {
-    echo $key . ' => ' .  $dataPerson . PHP_EOL;
-}
+do {
+    if ($i === 1){
+        break;
+    }
+    echo $names[$i];
+    $i++;
+} while ($i < count($names));
+//RESULTADO: Lipszera
