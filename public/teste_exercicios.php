@@ -1,13 +1,13 @@
 <?php
 
-$names = ['Lipszera', 'Gean', 'Aline'];
-$i = 0;
+$texto1 = 'tiu dei ai ui iu tél iu, abauti';
+$texto2 = 'mi proféxional drim';
+$texto3 = 'leti mi star bai... bai tânlei';
 
-do {
-    if ($i === 1){
-        break;
-    }
-    echo $names[$i];
-    $i++;
-} while ($i < count($names));
-//RESULTADO: Lipszera
+function texto($texto1, $texto2, $texto3) {
+    echo "o texto passado para funcao foi:" . "\n" . $texto1 . "\n" . $texto2 . "\n" . $texto3;
+}
+
+
+
+texto($texto1, $texto2, $texto3);
